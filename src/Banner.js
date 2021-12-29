@@ -4,9 +4,9 @@ import Paper from "@material-ui/core/Paper";
 import Tab from "@material-ui/core/Tab";
 import Box from '@material-ui/core/Box'
 import { Camera, ChildCareOutlined,ExitToAppOutlined, ComputerOutlined, EditAttributesOutlined, FavoriteBorder, ForwardOutlined, GamesOutlined, HdSharp, HealingOutlined, HelpOutlineRounded, HomeOutlined, LanguageOutlined, LocalMallOutlined, NotificationImportantOutlined, PartyModeOutlined, PhoneAndroidOutlined, Rotate90DegreesCcwOutlined, Settings, ShoppingBasketOutlined, ShoppingCartOutlined, Store, StoreMallDirectoryOutlined, WbIncandescent } from '@material-ui/icons'
-import Product1 from './images/item1.jpg'
-import Product2 from './images/item2.jpg'
-import Product3 from './images/item3.jpg'
+import Product1 from './item1.jpg'
+import Product2 from './item2.jpg'
+import Product3 from './item3.jpg'
 import Carosel from './Carosel'
 import CaroselMenu from './CaroselAndMenu'
 import TabPanel from '@material-ui/lab/TabPanel';
