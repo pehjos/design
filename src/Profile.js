@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './profile.css'
-import logo from './images/musk.png'
+import logo from './musk.png'
 import { Link, useHistory } from 'react-router-dom'
 import { auth } from './firebase'
 import {  signInWithPopup, GoogleAuthProvider } from "firebase/auth";
