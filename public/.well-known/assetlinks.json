@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.forecastmall.twa",
+                 "sha256_cert_fingerprints": ["F4:12:7C:9C:5D:D5:3B:62:C4:DF:3F:98:39:30:30:B7:BD:9C:0D:85:95:4D:50:2F:23:CF:1D:12:3F:05:59:3F"] }
+  }]

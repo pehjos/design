@@ -1,0 +1,43 @@
+.notification{
+    position: absolute;
+    background-color: white;
+    margin-top: 60px;
+    }
+    .notification_cont{
+    flex-direction: column;
+    border-left: 1px solid lightgrey;
+    display:flex;
+    margin:10px;
+    align-items:center;
+    justify-content:baseline;
+    }
+    
+      .notificationlabel>img {
+   width: 60px;
+   height: 60px;
+   display:flex;
+   flex-direction: column
+      } 
+      .notificationlabel>p {
+       display: flex;
+align-items:center;
+justify-content:baseline;
+font-size: 18px;
+border-bottom: 1px dotted rgb(129, 23, 23);
+
+margin: 10px;
+           } 
+           .notificationlabel>h4 {
+            display: flex;
+     align-items:center;
+     justify-content:baseline;
+     font-size: 18px;
+     color: rgb(235, 104, 104);
+     
+     margin: 10px;
+                }
+           .notificationlabel {
+               background-color: rgba(191, 255, 191, 0.342);
+            border-left: 1px solid lightgrey;
+            margin: 10px;
+               } 

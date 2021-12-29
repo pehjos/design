@@ -1,0 +1,41 @@
+.images{
+overflow-y: hidden;
+overflow-x: scroll;
+margin: 10px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.images>img{
+  
+width: 100%;
+height: 300px;
+}
+.main_about>h2{
+    text-align: center;
+}
+.content1>p{
+margin: 10px;
+color: #333;
+font-size:18px;
+}
+.content1>p>h2{
+    margin: 10px;
+    color: #333;
+    font-size:18px;
+    text-align: center;
+    }
+    /* .main_about{
+
+
+    } */
+    @media(min-width:700px){
+        .main_about{
+      
+           margin-left: 20%;
+           margin-right: 20%;
+                }
+
+    }

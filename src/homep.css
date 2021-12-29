@@ -1,0 +1,137 @@
+.home_row{
+  width: 100%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap:10px;
+    }
+    .home_ro{
+width: 100%;
+      display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+overflow-y: hidden;
+
+    }
+    #country{
+height:18px;
+width:25px;
+    }
+    #status{
+      position: absolute;
+      margin-top:-200px;
+      color:white;
+      font-size: 30px;
+      border-radius:30px;
+      padding: 4px;
+      margin-left: 30px;
+      background-color:rgba(0, 0, 0, 0.548);
+      
+          }
+    .productu{
+  
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    }
+    .home_row::-webkit-scrollbar {
+    display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+     .home_row { 
+     -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
+     }
+     .home_ro::-webkit-scrollbar {
+      display: none;
+      }
+      
+      /* Hide scrollbar for IE, Edge and Firefox */
+       .home_ro { 
+       -ms-overflow-style: none;  /* IE and Edge */
+       scrollbar-width: none;  /* Firefox */
+       }
+     .productus>p{
+    
+        color: crimson;
+        font-size: 18px;
+    
+     }
+     .loadingPape{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      
+      }
+     @media(max-width:700px){
+      .home_ro{
+
+         display: grid;
+       /* grid-template-columns: repeat(2,1fr); */
+       gap:10px;
+       width: 100%;
+       align-content: space-around;
+       justify-content: space-around;
+       align-items: center;
+       justify-items: stretch;
+   
+   
+       }
+       .home_row{
+         display: grid;
+      
+       grid-gap:5px;
+     grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    align-items:center;
+
+ 
+
+       }
+      .productu{
+  
+width: 100%;
+
+  
+        
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         overflow-x: hidden;
+       
+         margin-left: 0%;
+         margin-right: 0%;
+         
+         }
+
+     }
+     .ship{
+display: flex;
+align-items: center;
+margin-top: -30px;
+border: 1px solid teal;
+position:relative;
+     }
+    
+     .ship>.MuiSvgIcon-root{
+      display: flex;
+      align-items: center;
+background-color:crimson;
+font-size:18px;
+    color: white;  
+    margin-right: 6px;
+           }
+           .ship>p{
+        
+          margin-right: 6px;
+                 }
+      
+
+          
+    
