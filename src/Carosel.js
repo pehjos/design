@@ -2,15 +2,15 @@ import React from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import Pagination from './Pagination';
-import image1 from './images/2 (3).jpg'
+import image1 from './2 (3).jpg'
 
-import image3 from './images/2 (2).jpg'
-import image4 from './images/2 (4).jpg'
-import image5 from './images/2 (1).jpg'
-import image6 from './images/2 (5).jpg'
-import image7 from './images/2 (6).jpg'
+import image3 from './2 (2).jpg'
+import image4 from './2 (4).jpg'
+import image5 from './2 (1).jpg'
+import image6 from './2 (5).jpg'
+import image7 from './2 (6).jpg'
 
-import image9 from './images/Phone.jpg'
+import image9 from './Phone.jpg'
 
 
 import './carosel.css'
