@@ -2,8 +2,8 @@ import React from 'react'
 import Product from './Product'
 import {  useQuery } from 'react-query'
 import video from './video.mp4'
-import ghana from './images/ghana.jpg'
-import china from './images/china.png'
+import ghana from './ghana.jpg'
+import china from './china.png'
 import { useDispatch, useSelector } from 'react-redux';
 import {fetchPosts2} from './api/index'
 import { getPosts } from './actions/posts';
